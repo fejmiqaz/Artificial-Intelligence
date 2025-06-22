@@ -1,7 +1,7 @@
 import os
 
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
-from dataset_script import dataset
+# from dataset_script import dataset
 from sklearn.naive_bayes import GaussianNB
 from sklearn.preprocessing import MinMaxScaler
 
